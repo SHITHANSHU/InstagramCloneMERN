@@ -33,12 +33,8 @@ function SignupForms() {
                     </Button>
 
                 </Form>
-                <div className="separator">
-                <div className="line"></div>
-                <p style={{fontSize:"13px",fontWeight:"600"}}>OR</p>
-                <div className="line"></div>
-            </div>
-                
+  
+                <br></br>
                 <div className="termsSignup">
 
                     By signing up you aggree to our <strong>Terms</strong> ,<strong>Data Policy</strong> and <strong>Cookies Policy</strong>

@@ -4,6 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SignupCard from './Components/Signup/SignupCard';
 import LoginCard from './Components/Login/LoginCard';
+import ForgotPasswordCard from "./Components/ForgotPassword/ForgotPasswordCard";
 
 import {
   BrowserRouter as Router,
@@ -38,6 +39,10 @@ function App() {
           <Route path="/signup">
           <SignupCard></SignupCard>
 
+          </Route>
+
+          <Route path="/forgotpassword">
+          <ForgotPasswordCard></ForgotPasswordCard>
           </Route>
           
           <Route path="/">

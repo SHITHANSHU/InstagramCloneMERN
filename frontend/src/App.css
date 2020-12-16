@@ -5,6 +5,9 @@
   border-radius: 1px !important;
 
 }
+body{
+  background-color: whitesmoke !important;
+}
 
 .signUpLoginCard
 {
@@ -29,7 +32,7 @@
 {
   height:35px !important;
   background-color: whitesmoke !important;
-  font-size: xx-small !important;
+  font-size: x-small !important;
   border-radius: 1px !important;
   margin-top:6px !important;
 
@@ -71,7 +74,7 @@
 }
 
 a{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 
@@ -83,4 +86,19 @@ a{
   padding-right:1rem;
   font-size: 16px;
   
+}
+
+.SignupHead
+{
+  color:#8e8e8e;
+  font-weight: 600;
+  padding-left:1rem;
+  padding-right:1rem;
+  font-size: 11px;
+  
+}
+
+.ForgotPasswordNavBar
+{
+  border-bottom: 1px solid #dbdbdb;
 }

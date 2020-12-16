@@ -29,7 +29,7 @@ function LoginForms() {
             </div>
                 
                 <div className="forgotPasswordText">
-                    <a href="" style={{textDecoration:"none",color:"#999"}}>
+                    <a href="/forgotpassword" style={{textDecoration:"none",color:"#999"}}>
                     Forgot Password ?
                     </a>
                     
