@@ -1,0 +1,86 @@
+.loginCard
+{
+  width: 20rem;
+  top:2rem;
+  border-radius: 1px !important;
+
+}
+
+.signUpLoginCard
+{
+  margin-top: 1rem;
+  width: 20rem;
+  top:2rem;
+  border-radius: 1px !important;
+}
+
+.logoLarge-login
+{
+  width: '60%' !important;
+}
+
+.loginCard-body{
+  padding-left: 1.5rem !important;
+  
+  padding-right: 1.5rem !important;
+}
+
+.textLogin
+{
+  height:35px !important;
+  background-color: whitesmoke !important;
+  font-size: xx-small !important;
+  border-radius: 1px !important;
+  margin-top:6px !important;
+
+}
+
+.buttonlogin
+{
+  height: 32px !important;
+  font-size: xx-small !important;
+  font-weight: bold !important;
+}
+
+.separator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+  margin-top: 6px;
+}
+
+.separator .line {
+  height: 1px;
+  width: 40%;
+  background-color: #dbdbdb;
+  margin-bottom: 0.9rem ;
+}
+
+.forgotPasswordText
+{
+  color: #999;
+  font-size: xx-small !important;
+ 
+}
+
+.termsSignup
+{
+  color: #999;
+  font-size: x-small !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.SignupHead
+{
+  color:#8e8e8e;
+  font-weight: 600;
+  padding-left:1rem;
+  padding-right:1rem;
+  font-size: 16px;
+  
+}
