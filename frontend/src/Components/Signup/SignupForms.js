@@ -10,22 +10,22 @@ function SignupForms() {
                     <Form.Group controlId="formBasicEmail">
                        
                         <Form.Control className="textLogin" type="email" 
-                        placeholder="Phone number, username, or email" 
+                        placeholder="Phone number, username, or email" required 
                         />
        
                        
                        <Form.Control className="textLogin" type="text" 
-                       placeholder="Full Name" 
+                       placeholder="Full Name" required
                        />
                       
             
                        
                        <Form.Control className="textLogin" type="text" 
-                       placeholder="Username" 
+                       placeholder="Username" required
                        />
                     
                      
-                        <Form.Control className="textLogin" type="password" placeholder="Password" />
+                        <Form.Control className="textLogin" type="password" placeholder="Password" required />
                     </Form.Group>
                   
                     <Button className="buttonlogin" variant="primary" type="submit" block>
