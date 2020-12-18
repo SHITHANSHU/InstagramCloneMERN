@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import SignupCard from './Components/Signup/SignupCard';
 import LoginCard from './Components/Login/LoginCard';
 import ForgotPasswordCard from "./Components/ForgotPassword/ForgotPasswordCard";
-
+import ImageUpload from "./Components/testSystem/ImageUpload";
+import FeedsMain from "./Components/Feeds/FeedsMain";
 import {
   BrowserRouter as Router,
   Switch,
@@ -45,9 +46,19 @@ function App() {
           <ForgotPasswordCard></ForgotPasswordCard>
           </Route>
           
-          <Route path="/">
+          
+          <Route path="/test">
+          <ImageUpload></ImageUpload>
+          </Route>
+
+          <Route path="/login">
           <LoginCard></LoginCard>
           </Route>
+          
+          <Route path="/">
+          <FeedsMain></FeedsMain>
+          </Route>
+
         </Switch>
       </Router>
       
