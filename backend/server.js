@@ -3,8 +3,10 @@ const bodyParser=require('body-parser');
 const app=express();
 // const morgan=require('morgan');
 const authRoutes=require('./controller/auth');
+const userProfileRoutes=require('./controller/user/userProfileController');
 const testApiRoutes=require('./controller/testApi');
 const resetPasswordRoutes=require('./controller/resetPassword');
+const PostRoutes=require('./controller/post/postController');
 const mongoose=require('mongoose');
 const cors=require('cors');
 const dotev=require('dotenv');
@@ -23,6 +25,11 @@ mongoose.connect('mongodb+srv://root:root@cluster0.njobl.mongodb.net/Instagram?r
 
 
 app.use('/auth',authRoutes);
+app.use('/user',userProfileRoutes);
+
+app.use('/post',PostRoutes);
+
+app.use('/comment',PostRoutes);
 app.use('/reset',resetPasswordRoutes);
 app.use('/api',testApiRoutes);
 app.use((req,resp,next)=>{
