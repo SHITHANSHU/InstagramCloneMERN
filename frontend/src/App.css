@@ -160,14 +160,24 @@ a{
   text-align: left !important;
 }
 
-.postCardBodyText
+.postCardBodyIcons
 {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   padding-left: 15px;
   text-align: left !important;
   display:flex;
 }
+
+
+.postCardBodyText
+{
+  text-align: left !important;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+
 
 .likeIcon
 {
@@ -216,4 +226,78 @@ a{
 .likedHeart
 {
   color: #ED4956 !important;
+}
+
+
+.bold
+{
+  font-weight: bold;
+}
+
+.commentExpansion
+{
+  color:#8e8e8e;
+}
+
+.grey
+{
+  color:#8e8e8e;
+}
+
+.commentForm{
+  width: 100%;
+}
+
+.commentFormArea
+{
+  overflow: auto;
+  outline: none;
+  border:none ;
+  font-size:15px;
+  padding-left: 5px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize:none;
+  height: 30px !important;
+  width: 540px !important;
+  position: relative;
+  left: 0px;
+  
+
+}
+
+.commentFormButton
+{
+  background: none;
+	color: inherit;
+	border: none;
+  padding: 0;
+  color:#0095f6;
+  font-size: 17px !important;
+  font-weight: bold !important;
+	font: inherit;
+	cursor: pointer;
+  outline: inherit;
+  position: absolute;
+}
+
+.buttonForm:disabled
+{
+  opacity: 0.3;
+  cursor:unset;
+  }
+
+
+
+.postCardFooter
+{
+  padding-top: 10px !important;
+  padding-bottom: 5px !important;
+  padding-right: 0px !important;
+ 
+  padding-left: 10px !important;
+  background-color: white !important;
+  align-self: flex-start !important;
+  padding-right: 49px !important;
 }

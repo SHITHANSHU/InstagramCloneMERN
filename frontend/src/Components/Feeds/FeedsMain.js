@@ -13,6 +13,17 @@ function FeedsMain() {
                              
                                     <Navbar expand="md" variant="light" bg="light" className="FeedsNavBar">
                                         <Navbar.Brand href="#" ><img src={InstalogoLarge} height="40rem"></img></Navbar.Brand>
+                                        
+                                        <Navbar.Collapse className="justify-content-end">
+                                            <Navbar.Text>
+                                            <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                                                className="profilePicPost scale-0.8">
+
+                                            </img>
+              
+                                            </Navbar.Text>
+                                        </Navbar.Collapse>
+                                       
                                     </Navbar>
                                
 
